@@ -12,9 +12,9 @@
 |---|---|---|---|
 | Task 1 | 1–6 | Foundation & Exploratory Data Analysis | ✅ Done (user confirmed — left untouched) |
 | Task 2 | 7–13 | SQL for Data Extraction | ✅ Done (built & verified) |
-| Task 3 | 14–20 | Data Visualization & Dashboarding | 🔄 In progress |
-| Task 4 | 21–26 | Advanced Analytics (Basic) | ⬜ Not started |
-| Task 5 | 27–30 | Final Report, Automation & Presentation | ⬜ Not started |
+| Task 3 | 14–20 | Data Visualization & Dashboarding | ✅ Python done · ⬜ user builds `.pbix` |
+| Task 4 | 21–26 | Advanced Analytics (Basic) | ✅ Done (33 cells, 0 errors) |
+| Task 5 | 27–30 | Final Report, Automation & Presentation | ✅ Done · ⬜ user pushes |
 
 Legend: ✅ done · 🔄 in progress · ⬜ not started · ⛔ blocked
 
@@ -104,25 +104,30 @@ Legend: ✅ done · 🔄 in progress · ⬜ not started · ⛔ blocked
 ## Task 5 — Final Report, Automation & Presentation
 
 ### Day 27: Executive summary report
-- [ ] 2-page PDF report
-- [ ] Executive summary (key findings)
-- [ ] Dashboard screenshot
-- [ ] Top 5 insights with visuals
-- [ ] 3 business recommendations
+- [x] 2-page PDF report — `reports/Task5_Final_Report.pdf` (verified 2 pages)
+- [x] Executive summary (key findings)
+- [x] Charts embedded from Task 3 (`01_monthly_sales_line.png`, `02_sales_by_category_bar.png`)
+- [x] Top 5 insights with visuals
+- [x] 3 business recommendations
+- [ ] ⬜ **USER:** optionally swap one figure for a Power BI dashboard screenshot once the `.pbix` exists
 
 ### Day 28–29: Automate pipeline (simple)
-- [ ] Script: load → clean → save → KPIs → export Excel
-- [ ] Schedule via GitHub Actions or Windows Task Scheduler
+- [x] Script: load → clean → save → KPIs → export Excel (`scripts/automate_pipeline.py`)
+- [x] Schedule via GitHub Actions (`.github/workflows/pipeline.yml`) or Windows Task Scheduler (`run_pipeline.bat`)
 
 ### Day 30: Final submission
-- [ ] Clean repository
-- [ ] `requirements.txt`
-- [ ] Final commit + tag `v1.0.0`
-- [ ] Submit: LinkedIn link + GitHub link
+- [x] Clean repository
+- [x] `requirements.txt` (root-level per-task files)
+- [x] Final commit + tag `v1.0.0`
+- [ ] ⬜ **USER:** push to GitHub + submit LinkedIn and GitHub links
 
 ### Deliverables
-- [ ] GitHub: final code + automation script + README + requirements.txt + report PDF
-- [ ] LinkedIn post (final submission)
+- [x] GitHub: final code + automation script + README + requirements.txt + report PDF
+- [ ] ⬜ **USER:** LinkedIn post (text in `apexplanet-data-analytics-task-5/readme.md`)
+
+### Verified outputs
+`kpis.xlsx` (7 sheets) · `Task5_Final_Report.pdf` (2 pages) · `pipeline_summary.txt` ·
+`superstore_cleaned_pipeline.csv` — pipeline and report both exit **0**.
 
 ---
 

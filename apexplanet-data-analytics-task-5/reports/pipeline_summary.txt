@@ -1,0 +1,26 @@
+======================================================================
+APEXPLANET TASK 5 - AUTOMATED PIPELINE RUN LOG
+======================================================================
+Run timestamp : 2026-10-17 18:56:40
+Dataset       : C:\Users\juhip\OneDrive\Desktop\python folder\apexplanet-data-analytics\data\superstore_cleaned.csv
+
+DATA
+  Rows in  : 9994
+  Rows out : 9994
+
+KEY PERFORMANCE INDICATORS
+  Total Sales           : 2297200.86
+  Total Profit          : 286397.02
+  Profit Margin %       : 12.47
+  Orders                : 5009
+  Customers             : 793
+  Products              : 1862
+  Average Order Value   : 458.61
+  Average Discount %    : 15.62
+
+OUTPUT FILES
+  superstore_cleaned_pipeline.csv  2396937 bytes
+  kpis.xlsx                        10948 bytes
+
+STATUS: PIPELINE OK
+======================================================================

@@ -1,0 +1,10 @@
+# Task 3 — Data Visualization & Dashboarding
+# Install with:  pip install -r requirements.txt
+
+pandas>=2.2
+numpy>=1.26
+matplotlib>=3.8
+seaborn>=0.13
+plotly>=5.20
+jupyter>=1.0
+ipykernel>=6.29

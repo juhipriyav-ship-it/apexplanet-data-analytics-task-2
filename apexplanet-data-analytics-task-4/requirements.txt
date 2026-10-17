@@ -1,0 +1,12 @@
+# Task 4 — Advanced Analytics (Basic)
+# Install with:  pip install -r requirements.txt
+
+pandas>=2.2
+numpy>=1.26
+matplotlib>=3.8
+seaborn>=0.13
+scipy>=1.11
+scikit-learn>=1.4
+statsmodels>=0.14
+jupyter>=1.0
+ipykernel>=6.29
